@@ -1,3 +1,4 @@
+---
 title: "Investigating eye lens composition for stable isotope analysis in fishes: a comparison between Chondrichthyes and Actinopterygii"
 authors: "<strong>Kuntz JP</strong>, Bell-Tilcock M, Vecchio JL, Wallace AA, Sturrock AM, Perry SM, Kim SL"
 journal: "Environmental Biology of Fishes"
