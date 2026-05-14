@@ -1,0 +1,23 @@
+<div class="pub-card">
+  <div class="pub-title">
+    <a href="{{ include.post.url | prepend: site.baseurl }}">
+      {{ include.post.title }}
+    </a>
+  </div>
+
+  {% if include.post.excerpt %}
+    <div class="pub-authors">
+      {{ include.post.excerpt | strip_html }}
+    </div>
+  {% endif %}
+
+  <div class="pub-meta">
+    {{ include.post.date | date: "%Y" }}
+  </div>
+
+  {% if include.post.pdf %}
+    <div class="pub-links">
+      <a href="{{ include.post.pdf }}" target="_blank">PDF</a>
+    </div>
+  {% endif %}
+</div>
