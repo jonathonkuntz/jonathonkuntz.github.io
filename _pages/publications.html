@@ -32,9 +32,11 @@ order: 3
       </a>
     </span>
 
-    <span class="pub-authors">
-      {{ post.excerpt | strip_html }}
-    </span>
+    {% if post.authors %}
+  <span class="pub-authors">
+    {{ post.authors }}
+  </span>
+{% endif %}
 
     {% if post.journal %}
       <span class="pub-journal">
