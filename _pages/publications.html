@@ -9,57 +9,44 @@ background-image: lab-512503_1920.jpg
 order: 3
 ---
 
-{% assign pubs = site.categories.publications | sort: "date" | reverse %}
+<div class="pub-entry">
 
-{% assign current_year = "" %}
-
-<div class="bibliography">
-
-{% for post in pubs %}
-
-  {% assign year = post.date | date: "%Y" %}
-
-  {% if year != current_year %}
-    {% assign current_year = year %}
-    <h2 class="pub-year">{{ year }}</h2>
+  {% if post.authors %}
+    <span class="pub-authors">
+      {{ post.authors }} ({{ post.date | date: "%Y" }})
+    </span>
   {% endif %}
 
-  <div class="pub-entry">
-
-    <span class="pub-title">
+  <span class="pub-title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank">
+        {{ post.title }}
+      </a>
+    {% else %}
       <a href="{{ post.url | prepend: site.baseurl }}">
         {{ post.title }}
       </a>
-    </span>
-
-    {% if post.authors %}
-  <span class="pub-authors">
-    {{ post.authors }}
+    {% endif %}
   </span>
-{% endif %}
 
-    {% if post.journal %}
-      <span class="pub-journal">
-        {{ post.journal }}
-      </span>
-    {% endif %}
+  {% if post.journal %}
+    <span class="pub-journal">
+      {{ post.journal }}
+    </span>
+  {% endif %}
 
-    {% if post.doi %}
-      <span class="pub-doi">
-        <a href="https://doi.org/{{ post.doi }}" target="_blank">
-          https://doi.org/{{ post.doi }}
-        </a>
-      </span>
-    {% endif %}
+  {% if post.doi %}
+    <span class="pub-doi">
+      <a href="https://doi.org/{{ post.doi }}" target="_blank">
+        https://doi.org/{{ post.doi }}
+      </a>
+    </span>
+  {% endif %}
 
-    {% if post.pdf %}
-      <span class="pub-pdf">
-        <a href="{{ post.pdf }}" target="_blank">PDF</a>
-      </span>
-    {% endif %}
-
-  </div>
-
-{% endfor %}
+  {% if post.pdf %}
+    <span class="pub-pdf">
+      <a href="{{ post.pdf }}" target="_blank">PDF</a>
+    </span>
+  {% endif %}
 
 </div>
