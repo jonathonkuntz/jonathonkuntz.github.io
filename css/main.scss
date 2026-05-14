@@ -2372,23 +2372,29 @@ $baseurl: '{{ site.baseurl }}/images';
    PUBLICATIONS STYLING
    ========================= */
 
-.pub-grid,
-.pub-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.2rem;
+.bibliography {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.pub-card {
-  padding: 1rem 1.2rem;
-  border-left: 3px solid #ccc;
-  background: rgba(255,255,255,0.03);
-  border-radius: 6px;
+.pub-year {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  padding-bottom: 0.3rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.pub-title {
+  font-weight: 600;
 }
 
 .pub-title a {
-  font-weight: 600;
-  font-size: 1.05rem;
   text-decoration: none;
 }
 
@@ -2397,19 +2403,24 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
 .pub-authors {
-  margin-top: 0.3rem;
+  display: block;
   font-size: 0.95rem;
   opacity: 0.85;
 }
 
-.pub-meta {
-  margin-top: 0.3rem;
-  font-size: 0.85rem;
-  opacity: 0.6;
+.pub-journal {
+  display: block;
+  font-style: italic;
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
 
-.pub-links {
-  margin-top: 0.5rem;
+.pub-doi,
+.pub-pdf {
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-right: 0.8rem;
+  opacity: 0.7;
 }
 
 {% if site.custom_extensions == 'yes' %}
