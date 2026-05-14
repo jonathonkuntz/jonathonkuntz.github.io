@@ -1,6 +1,6 @@
 ---
 title: "The Clever Strategies That Fishes Use to Survive in San Francisco’s Dynamic Estuary"
-authors: "Fichman R, Khen A, Willmes M, Kuntz J, Scott A, Hobbs J and Lewis L"
+authors: "Fichman R, Khen A, Willmes M, **Kuntz J**, Scott A, Hobbs J and Lewis L"
 journal: "Fronteirs for young Minds"
 year: 2021
 doi:
