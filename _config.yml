@@ -32,7 +32,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: About Me  
-  text: <p>I am a stable isotope ecologist interested in the life histories of marine organisms. I am currently an Alaska Sea Grant State Fellow working with the Alaska Department of Fish and Game, focusing on data synthesis of shellfish stock assessment to inform management.<br /></p><p>I earned my PhD in Quantitative Systems Biology in 2025 from the University of California, Merced, where I used chronological tissues such as eye lenses layers, vertebral rings, and teeth series within the jaw to reconstruct shark movement and foraging across space and time. </p>
+  text: <p>I am a stable isotope ecologist studying the life histories of marine organisms. I am currently an Alaska Seagrant State Fellow working with the Alaska Department of Fish and Game, where I focus on synthesizing shellfish stock assessment data to support fisheries management.<br /></p><p>I earned a BSc in Biology in 2017 from the University of Utah and a PhD in Quantitative Systems Biology in 2025 from the University of California, Merced.My PhD thesis focused on chondrichthyans (cartilaginous fishes, including sharks, skates, and rays) and developed the use of chronological tissues, such as eye lens layers and serially sampled teeth, to reconstruct lifetime and seasonal movement and foraging patterns across space and time.</p>
 # - displayed at the bottom
 closing-head: Please get in touch!
 closing-para: If you have any questions on anything, don't hestitate to reach out via the icons below.
