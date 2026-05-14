@@ -13,9 +13,9 @@
 # Site settings
 title: Jonathon Kuntz
 description: |
-  <p>Sharks + Stable Isotopes<br /></p>
-  <p>PhD Student at the University of California Merced<br /></p>
-  <p>California Sea Grant Fellow</p>
+  <p>Stable Isotopes Ecology<br /></p>
+  <p>Alaska Seagrant State Fellow<br /></p>
+  <p>Alaska Department of Fish and Game</p>
 author:
   name: Jonathon Kuntz # or company name
   url: "https://jonathonkuntz.github.io/" # your URL
@@ -32,7 +32,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: About Me  
-  text: <p>I am a stable isotope ecologist interested in the life histories of marine organisms. I am currently an Alaska Sea Grant State Fellow working with the Alaska Department of Fish and Game, focusing on data synthesis of shellfish stock assessment to inform management.<br /></p><p>I earned my PhD in Quantitative Systems Biology in 2025 from the University of California, Merced, where I worked in the Kim Lab. My research has used chronological tissues such as eye lenses layers, vertebral rings, and teeth series within the jaw to reconstruct shark movement and foraging across space and time. </p>
+  text: <p>I am a stable isotope ecologist interested in the life histories of marine organisms. I am currently an Alaska Sea Grant State Fellow working with the Alaska Department of Fish and Game, focusing on data synthesis of shellfish stock assessment to inform management.<br /></p><p>I earned my PhD in Quantitative Systems Biology in 2025 from the University of California, Merced, where I used chronological tissues such as eye lenses layers, vertebral rings, and teeth series within the jaw to reconstruct shark movement and foraging across space and time. </p>
 # - displayed at the bottom
 closing-head: Please get in touch!
 closing-para: If you have any questions on anything, don't hestitate to reach out via the icons below.
