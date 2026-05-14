@@ -3,6 +3,7 @@ title: "Loss of Cdc42 causes abnormal optic cup morphogenesis and microphthalmia
 authors: "Hofstetter KS, Haas PM, <strong>Kuntz JP</strong>, Zheng Y, Fuhrmann S"
 journal: "Frontiers in Cellular Neuroscience"
 date: 2024-11-19
+pdf:
 doi: "10.3389/fncel.2024.1474010"
 paperurl: "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2024.1474010/full"
 categories:
